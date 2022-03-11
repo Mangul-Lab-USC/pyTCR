@@ -11,7 +11,6 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Quick Start](#quick-start)
 - [Setting up your data](#setting-up-your-data)
 
@@ -42,7 +41,7 @@ There are many cloud based Jupyter notebook platforms that will allow you to run
 Due to the nature of Jupyter notebooks, they can be run anywhere `python` is supported. We recommend following [Jupyter's official installation guide](https://jupyter.org/install) to get it up and running locally.
 
 ## Setting up your data
-By nature, all notebooks can be modified to fit any data format. However, pyTCR comes with a preset format if you are not comfortable altering the notebook cells to fit your data. The `data_adapter.ipynb` notebook can be used to convert existing data formats such as VDJtools, trust4, or any other tabular format, to the pyTCR format. PyTCR expects the following columns in your data file and are required for the notebooks to work out of the box.
+By nature, all notebooks can be modified to fit any data format. However, pyTCR includes a default format. The `data_adapter.ipynb` notebook can be used to convert existing data formats such as VDJtools, trust4, or any other tabular format, to the pyTCR format. This is generally faster than modifying each notebook individually to fit your data setup. PyTCR expects the following columns in your data file and are required for the notebooks to work out of the box.
 
 | column | name | description                                               |
 |--:|:---------|:-----------------------------------------------------------|
@@ -56,4 +55,4 @@ By nature, all notebooks can be modified to fit any data format. However, pyTCR 
 | 8   | `j`       | J gene (required)                                       |
 | ... | optional fields | any other fields intended for your use (optional) |
 
-Specific Instructions on how to convert your data to the pyTCR format is available inside the `data_adapter.ipynb` notebook. The notebooks are written with the pyTCR format by default, but can be altered to fit any data requirements.
+Specific Instructions on how to convert your data to the pyTCR format is available inside the `data_adapter.ipynb` notebook. All notebooks are written with the pyTCR format by default, however, it should be noted that users are able to alter each notebook to fit any data formats and requirements.
