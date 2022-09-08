@@ -45,7 +45,7 @@ By nature, all notebooks can be modified to fit any data format. However, pyTCR 
 
 | column | name | description                                               |
 |--:|:---------|:-----------------------------------------------------------|
-| 1   | `sample`  | The name of the sample (required)                       |
+| 1   | `sample`  | The name of the sample (optional)                       |
 | 2   | `freq`    | The share of clonotypes in the sample (required)        |
 | 3   | `#count`  | The number of reads (required)                          |
 | 4   | `cdr3aa`  | CDR3 amino acid clonotype (required)                    |
